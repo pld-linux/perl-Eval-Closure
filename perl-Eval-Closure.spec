@@ -8,13 +8,13 @@
 Summary:	Eval::Closure - safely and cleanly create closures via string eval
 Summary(pl.UTF-8):	Eval::Closure - bezpieczne i czyste tworzenie dopełnień poprzez eval łańcucha
 Name:		perl-Eval-Closure
-Version:	0.08
-Release:	3
+Version:	0.12
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DO/DOY/Eval-Closure-%{version}.tar.gz
-# Source0-md5:	c2af8abc363fc9a039731be9ecf2985c
+# Source0-md5:	dcde50625dd9bc22888fedb3e8cecd4b
 URL:		http://search.cpan.org/dist/Eval-Closure/
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
