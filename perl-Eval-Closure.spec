@@ -4,7 +4,6 @@
 #
 %define		pdir	Eval
 %define		pnam	Closure
-%include	/usr/lib/rpm/macros.perl
 Summary:	Eval::Closure - safely and cleanly create closures via string eval
 Summary(pl.UTF-8):	Eval::Closure - bezpieczne i czyste tworzenie dopełnień poprzez eval łańcucha
 Name:		perl-Eval-Closure
