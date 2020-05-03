@@ -14,10 +14,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DO/DOY/Eval-Closure-%{version}.tar.gz
 # Source0-md5:	ceeb1fc579ac9af981fa6b600538c285
-URL:		http://search.cpan.org/dist/Eval-Closure/
+URL:		https://metacpan.org/release/Eval-Closure
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Test-Fatal
 BuildRequires:	perl-Test-Requires
