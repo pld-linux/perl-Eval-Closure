@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Eval
 %define		pnam	Closure
@@ -12,9 +12,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/D/DO/DOY/Eval-Closure-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-authors/id/D/DO/DOY/Eval-Closure-%{version}.tar.gz
 # Source0-md5:	ceeb1fc579ac9af981fa6b600538c285
-URL:		https://metacpan.org/release/Eval-Closure
+URL:		https://metacpan.org/dist/Eval-Closure
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
